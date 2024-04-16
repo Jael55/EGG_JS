@@ -1,13 +1,10 @@
-const numero1 = Number(prompt("Ingrese el primer número"));
-const numero2 = Number(prompt("Ingrese el segundo número"));
-const suma = numero1 + numero2;
-const mensajeSuma = "El resultado de la suma es: " + suma;
-//alert(mensajeSuma);
+const cantidad = Number(prompt("¿Cuántos números deseas sumar?"));
 
-//PROMEDIO
+let sumatoria = 0;
 
-const promedio = suma / 2;
-const triple = promedio * 3;
-const resultadoMenosDiez = triple - 10;
-const mensajeFinal = "El resultado final es: " + resultadoMenosDiez;
-alert(mensajeFinal);
+for (let i = 1; i <= cantidad; i++) {
+    const numeroASumar = Number(prompt("Ingrese un número a sumar"));
+    sumatoria = sumatoria + numeroASumar;
+}
+
+alert(sumatoria);
