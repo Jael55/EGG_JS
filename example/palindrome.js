@@ -1,5 +1,5 @@
 function palindrome(cadena) {
-  const cadenaFinal = cadena.split("").reverse().join("");
+  const cadenaFinal = cadena.split('').reverse().join('');
   return cadena === cadenaFinal;
 }
 

@@ -23,3 +23,25 @@ console.log(typeof cadena.split(""));
 
 console.log("REVERSE: " + cadena.split(" ").reverse());
 console.log("REVERSE: " + cadena.split("").reverse());
+
+const arreglo = ["hola", "como", "estas", "mi", "amigo"];
+
+/*unshift*/
+
+arreglo.unshift("¿¿¿");
+
+/*push*/
+
+arreglo.push("???");
+
+console.log(arreglo);
+
+/* shift*/
+
+arreglo.shift();
+
+/* pop */
+
+arreglo.pop();
+
+console.log(arreglo);
